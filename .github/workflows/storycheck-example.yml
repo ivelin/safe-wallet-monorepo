@@ -2,9 +2,9 @@
 name: StoryCheck SAFE Create Account Example
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 6 * * *'
+  # workflow_dispatch:
+  # schedule:
+    # - cron: '0 6 * * *'
   push:
     branches: [dev]
   pull_request:
